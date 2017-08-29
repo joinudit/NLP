@@ -1,0 +1,77 @@
+setK(30).setDocConcentration(.02).setMaxIter(1000)
+
+0	(coffee), (cup), (flavor), (roast), (espresso), (starbucks), (keurig), (taste), (k), (morning), (decaf), (maker), (mountain), (aroma), (medium), (hazelnut), (blend), (ground), (pod), (water), (brew), (creamer), (green), (pot), (bitterness)
+1	(food), (dog), (cat), (baby), (treat), (popcorn), (formula), (chicken), (day), (product), (time), (bag), (pet), (jerky), (vet), (diet), (health), (quality), (year), (puppy), (brand), (toy), (meat), (beef), (month)
+2	(rice), (gluten), (pasta), (wheat), (flour), (corn), (soy), (free), (texture), (grain), (mix), (recipe), (quinoa), (diet), (organic), (cooking), (england), (red), (barley), (family), (starch), (water), (rrb), (meal), (sushi)
+3	(honey), (healing), (thomas), (bistro), (perrier), (panama), (dna), (twix), (bariani), (blister), (eric), (driveway), (stuck), (shep), (transformation), (cals), (fir), (surprisingly), (andrea), (gingery), (amazaon), (supertaster), (overdrive), (petty), (mishmash)
+4	(vanilla), (bean), (pound), (gourmet), (jelly), (sampler), (cacao), (belly), (raw), (goji), (recommended), (macadamia), (contact), (beans), (stem), (bag), (multi), (def), (consistancy), (tennessee), (audience), (sue), (berry), (gnc), (according)
+5	(sauce), (heat), (bottle), (flavor), (pepper), (spicy), (vinegar), (kick), (hot), (extract), (bbq), (stuff), (taco), (chili), (food), (bell), (taste), (drop), (ketchup), (chipotle), (tabasco), (habanero), (bit), (smokey), (recall)
+6	(weight), (shape), (seed), (heart), (plan), (rate), (sunflower), (loss), (trail), (diet), (variation), (usda), (net), (cucumber), (february), (wake), (sprout), (possibility), (isle), (confusion), (entire), (nutrasweet), (void), (measurement), (arrangement)
+7	(pill), (pocket), (medication), (sulfate), (stop), (stone), (caf), (amoretti), (jeremiah), (physician), (sweating), (veal), (cabernet), (corporation), (melatonin), (enter), (advertised), (opened), (refridgerator), (cockapoo), (representation), (sufferer), (susan), (laura), (taibi)
+8	(chocolate), (butter), (peanut), (cookie), (chip), (flavor), (almond), (taste), (texture), (cream), (treat), (filling), (fig), (dip), (sandwich), (pb), (wasabi), (creme), (marshmallow), (fan), (jar), (layer), (craving), (aspect), (planters)
+9	(pee), (maui), (roller), (needed), (dop), (argentina), (swimming), (havanese), (champ), (boyer), (parfait), (premise), (yearning), (floral), (caring), (eel), (vivani), (um), (gsugar), (bigalow), (choking), (pacifier), (pigeon), (wha), (seasonal)
+10	(europe), (edge), (bars), (united), (biscotti), (hay), (lowfat), (mochi), (chalk), (houston), (absorption), (paella), (ez), (mayonaise), (rooster), (stinger), (roma), (gouging), (ribena), (hybrid), (mtn), (gunk), (apso), (milkbone), (recycling)
+11	(u), (canada), (pretzel), (chex), (monkey), (cassia), (americano), (aka), (radiation), (marriage), (emphasis), (ziti), (cm), (deception), (sin), (dept), (bassett), (weetabix), (hellman), (brim), (fundraiser), (lovers), (sweetheart), (microwaving), (macy)
+12	(salt), (flavor), (cheese), (chicken), (soup), (taste), (water), (meat), (meal), (salad), (food), (seasoning), (dish), (beef), (product), (fish), (spice), (potato), (tuna), (sodium), (mix), (cooking), (bit), (tomato), (sea)
+13	(product), (price), (amazon), (taste), (time), (box), (flavor), (store), (bag), (way), (stuff), (day), (brand), (package), (lot), (bit), (grocery), (quality), (mix), (pack), (size), (thing), (love), (family), (home)
+14	(son), (daughter), (fun), (kid), (party), (child), (new), (school), (book), (movie), (brother), (city), (story), (acidity), (fuel), (quarter), (game), (event), (lack), (family), (worker), (advantage), (southern), (cardamom), (north)
+15	(water), (sugar), (drink), (flavor), (taste), (juice), (syrup), (energy), (bottle), (soda), (product), (fruit), (apple), (stevia), (diet), (cherry), (aftertaste), (sweetener), (powder), (splenda), (ice), (glass), (beverage), (bit), (mango)
+16	(ginger), (stomach), (s), (gold), (m), (mate), (advice), (oreo), (coco), (kool), (la), (joy), (google), (everybody), (root), (straw), (shaker), (snap), (boston), (nausea), (cuppa), (digestion), (carbohydrate), (truck), (choc)
+17	(oil), (coconut), (hair), (product), (smell), (skin), (shampoo), (bottle), (plant), (tree), (conditioner), (scalp), (color), (lid), (jar), (cooking), (body), (scent), (container), (plastic), (olive), (bubble), (use), (water), (spray)
+18	(snack), (milk), (cereal), (bar), (protein), (fruit), (sugar), (fiber), (breakfast), (oatmeal), (cinnamon), (fat), (granola), (flavor), (taste), (nut), (yogurt), (banana), (texture), (morning), (crunch), (meal), (nutrition), (diet), (calorie)
+19	(bread), (acid), (vitamin), (b), (yeast), (sodium), (calcium), (e), (l), (pastry), (amino), (fruity), (opener), (niacin), (flow), (beat), (bang), (government), (cytomax), (inventory), (twin), (mouthfeel), (baseball), (representative), (iraq)
+20	(candy), (mouth), (gum), (flavor), (licorice), (piece), (caramel), (newman), (texture), (gummy), (taste), (tooth), (throat), (childhood), (tongue), (haribo), (strawberry), (toffee), (raspberry), (center), (rock), (feel), (breath), (treat), (corner)
+21	(sleep), (cooker), (stretch), (letter), (sucrose), (puzzle), (okra), (affect), (cigar), (vermicelli), (elite), (snake), (frog), (grower), (campus), (metro), (correct), (phosphorous), (piper), (ihop), (aldi), (lounge), (cleanliness), (scorpion), (hide)
+
+
+
+
+20k_1000Iterations, default alpha, beta, countvectorization
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|0    |(food), (dog), (cat), (time), (baby), (treat), (day), (product), (year), (ingredient), (month), (formula), (brand), (chicken), (problem), (pet), (price), (thing), (diet), (vet), (bone), (toy), (store), (week), (quality)                                              |
+|1    |(g), (october), (truck), (r), (creek), (bump), (delay), (shark), (gnawing), (moo), (char), (ez), (elephant), (diglyceride), (chemist), (expo), (mesa), (carnitine), (xantham), (practitioner), (nunatural), (bolognese), (proponent), (por), (willow)                    |
+|2    |(product), (amazon), (company), (item), (order), (quality), (service), (customer), (thanks), (com), (shipping), (seller), (description), (purchase), (case), (china), (s), (website), (organic), (review), (package), (label), (site), (condition), (m)                  |
+|3    |(box), (rice), (packaging), (money), (waste), (litter), (package), (cardboard), (grain), (dust), (downside), (packing), (time), (mess), (contents), (plastic), (clump), (size), (garbage), (paper), (problem), (picture), (odor), (cooker), (carbohydrate)               |
+|4    |(salt), (popcorn), (corn), (sea), (age), (movie), (table), (king), (theater), (lactose), (x), (collection), (dunkin), (butter), (beginning), (death), (world), (add), (tim), (family), (home), (sachet), (series), (great), (alkaline)                                   |
+|5    |(flavor), (drink), (taste), (fruit), (juice), (sugar), (syrup), (water), (kid), (energy), (product), (soda), (apple), (cake), (day), (time), (bottle), (cherry), (snack), (mix), (thing), (year), (stuff), (calorie), (way)                                              |
+|6    |(new), (brother), (macaroni), (cocktail), (rye), (dash), (chicory), (history), (model), (impact), (cheez), (mum), (ritz), (dew), (cafe), (guacamole), (integrity), (cheetos), (beaba), (soups), (valerian), (echinacea), (itching), (bergin), (whirley)                  |
+|7    |(chocolate), (bar), (candy), (granola), (snack), (bars), (wilton), (pay), (ginseng), (timer), (balance), (naan), (rda), (stench), (autism), (funky), (gaggia), (mai), (departure), (patties), (lima), (son), (carcass), (arrowroot), (hazlenut)                          |
+|8    |(tea), (taste), (sugar), (flavor), (cookie), (milk), (cereal), (peanut), (butter), (honey), (calorie), (snack), (cup), (time), (protein), (bit), (product), (breakfast), (ingredient), (day), (almond), (way), (oatmeal), (fiber), (lot)                                 |
+|9    |(mate), (city), (europe), (straw), (key), (wonderful), (yerba), (arrowhead), (afghanistan), (cashews), (victor), (potatoe), (cecco), (thermometer), (kill), (beetle), (injection), (oop), (celebrity), (tourist), (fifth), (tropics), (burgundy), (contract), (poppyseed)|
+|10   |(water), (oil), (coconut), (jar), (taste), (brand), (health), (acid), (olive), (benefit), (milk), (cooking), (oils), (glass), (product), (butter), (body), (container), (temperature), (price), (kernel), (tablespoon), (organic), (way), (quality)                      |
+|11   |(gift), (time), (day), (seed), (container), (plant), (week), (christmas), (package), (year), (tree), (picture), (lid), (plastic), (problem), (thing), (crystal), (mother), (friend), (flower), (basket), (month), (item), (kit), (packaging)                             |
+|12   |(sauce), (flavor), (taste), (product), (soup), (cheese), (bread), (mix), (time), (food), (pasta), (chicken), (chip), (cracker), (recipe), (store), (noodle), (gluten), (meal), (flour), (spice), (dish), (bit), (year), (salad)                                          |
+|13   |(bag), (licorice), (newman), (pretzel), (bags), (freezer), (size), (ounce), (tub), (canada), (core), (fashion), (storage), (brands), (chex), (anise), (mention), (pomegranate), (sub), (potatoes), (clementine), (lover), (stack), (leak), (marley)                      |
+|14   |(bottle), (product), (hair), (smell), (shampoo), (skin), (time), (color), (day), (conditioner), (scent), (drop), (scalp), (stuff), (extract), (week), (use), (star), (review), (body), (punch), (way), (problem), (pain), (result)                                       |
+|15   |(coffee), (price), (cup), (flavor), (store), (amazon), (taste), (time), (brand), (k), (shipping), (grocery), (roast), (vanilla), (year), (pack), (pod), (machine), (way), (day), (espresso), (date), (starbucks), (deal), (decaf)                                        |
+|16   |(nut), (ginger), (roll), (pop), (beer), (root), (buffalo), (pepper), (cashew), (dr), (pecan), (french), (big), (lollipop), (parmesan), (event), (stage), (sucker), (dandruff), (roasted), (marmalade), (peel), (orange), (purchasing), (combination)                     |
+|17   |(bean), (powder), (caramel), (blueberry), (berry), (jelly), (muffin), (strawberry), (raspberry), (smoothie), (matcha), (flavour), (toast), (jam), (belly), (grade), (cacao), (fruit), (beans), (spread), (pb), (control), (tablet), (comfort), (plum)                    |
+|18   |(yum), (beneful), (liquor), (cramp), (chloride), (analysis), (guava), (zone), (flop), (watering), (fried), (facts), (pond), (guinea), (encounter), (momma), (excuse), (horchata), (baseline), (specifics), (diarhea), (timeframe), (ferrous), (terry), (aminos)          |
+|19   |(flavor), (piece), (mouth), (gum), (tooth), (pack), (mint), (taste), (texture), (cinnamon), (stick), (peppermint), (time), (tin), (package), (xylitol), (throat), (size), (sugar), (bit), (wrapper), (bite), (tongue), (breath), (bubble)                                |
+
+
+
++-----+----------------------------------------------------------------------------------------------------------+
+|topic|words                                                                                                     |
++-----+----------------------------------------------------------------------------------------------------------+
+|0    |[(milk), (cheese), (powder), (seed), (water), (pumpkin), (cup), (time), (wine), (kit)]                    |
+|1    |[(b), (g), (apricot), (advertising), (bedtime), (betty), (l), (beet), (horse), (f)]                       |
+|2    |[(day), (energy), (time), (morning), (work), (hour), (night), (stuff), (week), (thing)]                   |
+|3    |[(cat), (food), (chicken), (tuna), (flavor), (salmon), (brand), (fish), (kitty), (litter)]                |
+|4    |[(container), (plastic), (money), (waste), (room), (lid), (tree), (kitchen), (mess), (trap)]              |
+|5    |[(amazon), (product), (price), (store), (bag), (box), (time), (chip), (shipping), (item)]                 |
+|6    |[(flavor), (water), (taste), (drink), (bottle), (juice), (product), (fruit), (soda), (sugar)]             |
+|7    |[(penny), (island), (min), (creamy), (deli), (project), (processor), (toothpick), (superfood), (dextrose)]|
+|8    |[(food), (ingredient), (baby), (product), (formula), (diet), (grain), (health), (month), (brand)]         |
+|9    |[(butter), (peanut), (calorie), (protein), (fat), (taste), (jar), (carb), (gram), (fiber)]                |
+|10   |[(family), (gluten), (son), (kid), (wheat), (daughter), (flour), (free), (product), (child)]              |
+|11   |[(water), (health), (pill), (benefit), (product), (body), (blood), (effect), (magnesium), (blue)]         |
+|12   |[(chocolate), (bar), (cookie), (snack), (flavor), (taste), (cereal), (candy), (nut), (texture)]           |
+|13   |[(mix), (gift), (cake), (cream), (vanilla), (christmas), (recipe), (ice), (color), (party)]               |
+|14   |[(oil), (coconut), (product), (hair), (smell), (skin), (bottle), (shampoo), (oils), (face)]               |
+|15   |[(coffee), (cup), (flavor), (taste), (k), (roast), (bean), (pod), (keurig), (starbucks)]                  |
+|16   |[(sugar), (honey), (syrup), (corn), (cinnamon), (product), (pancake), (taste), (sweetener), (caramel)]    |
+|17   |[(tea), (flavor), (taste), (bag), (mint), (leaf), (licorice), (stash), (matcha), (green)]                 |
+|18   |[(dog), (treat), (product), (time), (tooth), (size), (gum), (piece), (bone), (toy)]                       |
+|19   |[(flavor), (salt), (sauce), (taste), (soup), (rice), (pasta), (bread), (chicken), (product)]              |
++-----+----------------------------------------------------------------------------------------------------------+

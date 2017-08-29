@@ -1,0 +1,21 @@
+Notebook: Aspect Based Sentiment Analysis - Food Review.json
+
+We use Stanford CoreNLP to get the sentiment on aspect.
+
+The approach used to get the aspect based sentiment is to parse the tree which CoreNLP generates for each word. We start from the leaf node (aspect) and move up the tree. The first non-neutral sentiment while moving up is chosen as the sentiment for the aspect.
+
+The food review dataset was downloaded from the link below. This dataset provides aspects on text and sentiment on these aspects. It forms the basis of validating the accuracy for our aspect based sentiment analysis using core nlp.
+
+http://metashare.ilsp.gr:8080/repository/browse/semeval-2014-absa-restaurant-reviews-trial-data/1790ab94464211e388f5842b2b6a04d79bb0323cac4f49939bf5b99878dc38be/
+
+
+Code to get sentiment at aspect level in scala: 
+4 methods are created:
+1. getOverallSentiment(Text) - gets the sentiment string (postive, negative and neutral) for the entire text.
+2. getOverallScore(Text) - gets the sentiment score for the entire text.
+3. getAspectSentiment(Text, Aspect) - gets the sentiment for aspect in the given text.
+4. getAspectScore(Text, Aspect) - gets the score for aspect in the given text.
+
+Using the approach stated above, we were able to achieve an average accuracy of 75% on aspects - Food and Service. The approach will form the basis of our Topic Based sentiment analysis using LDA.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
